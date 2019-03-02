@@ -24,6 +24,7 @@
 		03E1B15816AB5DD60018E31F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E1B15716AB5DD60018E31F /* Cocoa.framework */; };
 		211E4E451749096100BAA283 /* INWindowFrameAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 211E4E421749096100BAA283 /* INWindowFrameAnimation.m */; };
 		211E4E461749096100BAA283 /* NSView+INImagingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 211E4E441749096100BAA283 /* NSView+INImagingAdditions.m */; };
+		9D58FEFB222A53DE002CF112 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D58FEFA222A53DD002CF112 /* Carbon.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		211E4E421749096100BAA283 /* INWindowFrameAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INWindowFrameAnimation.m; path = INDockableWindow/INWindowFrameAnimation.m; sourceTree = "<group>"; };
 		211E4E431749096100BAA283 /* NSView+INImagingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSView+INImagingAdditions.h"; path = "INDockableWindow/NSView+INImagingAdditions.h"; sourceTree = "<group>"; };
 		211E4E441749096100BAA283 /* NSView+INImagingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSView+INImagingAdditions.m"; path = "INDockableWindow/NSView+INImagingAdditions.m"; sourceTree = "<group>"; };
+		9D58FEFA222A53DD002CF112 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D58FEFB222A53DE002CF112 /* Carbon.framework in Frameworks */,
 				03E1B15816AB5DD60018E31F /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -110,6 +113,7 @@
 		03E1B15616AB5DD60018E31F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9D58FEFA222A53DD002CF112 /* Carbon.framework */,
 				03E1B15716AB5DD60018E31F /* Cocoa.framework */,
 				03E1B15916AB5DD60018E31F /* Other Frameworks */,
 			);
